@@ -44,7 +44,7 @@
                         <a href="#questions" class="nav-link">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://github.com/Awadesh365" class="nav-link">github</a>
+                        <a target="_blank" href="https://github.com/Awadesh365" class="nav-link">github</a>
                     </li>
                 </ul>
             </div>
@@ -502,28 +502,6 @@
         </div>
     </section>
 
-    <script>
-        function initMap() {
-            // Map options
-            var options = {
-                zoom: 15,
-                center: { lat: 30.3016, lng: 78.0322 }, // Coordinates for Garhi Cantt, Dehradun, India
-            };
-
-            // New map
-            var map = new google.maps.Map(document.getElementById("map"), options);
-
-            // Add marker
-            var marker = new google.maps.Marker({
-                position: { lat: 30.3016, lng: 78.0322 }, // Coordinates for Garhi Cantt, Dehradun, India
-                map: map,
-            });
-        }
-    </script>
-
-    <!-- Replace YOUR_API_KEY with your actual API key -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
-
     <!-- Footer -->
     <footer class="p-5 bg-dark text-white text-center position-Welative">
         <div class="container">
@@ -575,22 +553,6 @@
             </div>
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
-
-    <script>
-        mapboxgl.accessToken =
-            '<iframe src="https://www.google.com/maps/d/embed?mid=12qnMf8tzUpwxjMOeuEYlRoirBtk&hl=en_US&ehbc=2E312F" width="640" height="480"></iframe>'
-        var map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v11',
-            center: [-71.060982, 42.35725],
-            zoom: 18,
-        })
-    </script>
 </body>
 
 </html>
